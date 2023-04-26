@@ -53,3 +53,27 @@ header{
 #menu2{
     display: none;
 }
+main{
+    background-color: pink;
+    position: relative;
+    top: 7.5em;
+    display: flex;
+    flex-direction: column;
+}
+main .article1 .content1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto 10%;
+}
+main .article1 .content1 div{
+    border: 1px solid;
+    flex: 1;
+}
+#content1Left{
+    background-color: red;
+}
+#content1Right{
+    background-color: yellow;
+}
