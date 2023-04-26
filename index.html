@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./public/index.css">
+  <title>emonati</title>    
+</head>
+    <body>
+        <header id="header">
+            <div id="leftside">
+                <div class="logo">
+                    <img id="header-img" src="./images/logoemonati.png" alt="Thrombones logo"/>
+                    <span id="header-logo">Emonati</span>
+                </div>
+            </div>
+            <div id="rightside">
+                <nav id="nav-bar">
+                <!-- 
+                    To connect anchor tag to topic in same page use "# with id" of topic in href attribute of that anchor tag
+                -->
+                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link2" href="#"><img src="./images/menu.png" alt="home"></a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div id="upper-content">
+                <div class="content1">
+                    <div id="content1L">            
+                        <h1 class="headingC1">Call whoever you want to talk about your problems, someone will be there to listen, advise, and support you</h1><br><br>
+                        <h3>
+                            Start real-time conversations with tutors
+                        </h3><br>
+                        <div class="clickButon"><!-- Here anchor tags are needed to activate play store app link-->
+                            <img src="./images/appStore2.svg" alt="Available on the App Store" id="svg1" class="content1Limg">
+                            <img src="./images/google.svg" alt="Available on Google Play" class="content1Limg">
+                        </div>
+                    </div>
+                    <div id="content1R">
+                        <img src="./images/twoPeopleTalking.png" alt="two people talking" class="content1Rimg">
+                    </div>
+                </div><br><br>
+                <img src="./images/wave3.png" alt="wave1" id="wave1">
+            </div>
+            <div id="upper-content2">
+                <div class="content2">
+                    <div id="content2L">
+                        <img src="./images/screen5.png" alt="screen5" class="content2Rimg" id="imgL">
+                        <h3>
+                            Do you need help or would you like to offer help? Choose your position in just one click.
+                        </h3>
+                    </div>
+                    <div id="content2R">
+                        <img src="./images/screen8.png" alt="screen8" class="content2Rimg" id="imgL">
+                        <h3>
+                            Choose the person with whom you would like to start a session!
+                        </h3>
+                    </div>
+                </div><br><br>
+            </div>
+            <div id="upper-content3">
+                <img src="./images/wave8.png" alt="wave2" id="wave2">
+                <div class="content3">
+                    <h3>
+                        Do you need a quick check-in of 5 or 10 minutes per day? Or a full session of 45 minutes every week? It's up to you to choose your support pace. Set your own rules and call whoever you want according to your needs!
+                    </h3>
+                </div>
+                <img src="./images/wave7.png" alt="wave3" id="wave3">
+            </div>
+            <div id="upper-content4">
+                <div class="content4">
+                    <h3>
+                        Tutors or psychologists are here specifically for you, don't wait any longer, call them!
+                    </h3>
+                </div><br><br>
+            </div>
+            <div id="upper-content-video">
+                <img src="./images/wave11.png" alt="wave4" id="wave4">
+                <div class="content-video">
+                    <h3 id="heading-video">How it works</h3>
+                    <video id="video" controls autoplay>
+                        <source src="./videos/emonatiMOD.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <img src="./images/wave12.png" alt="wave5" id="wave5">
+            </div>
+            <!-- 
+                The iframe tag is used for showing embeded video from youtube or any other site but not video tag 
+                And title attribute for screen readers -->
+        </main>
+        <footer>
+            <div class="content-footer">
+                <!--<div id="info1">
+                    <h3>OFFICE</h3>
+                    <p><Address></Address></p>
+                </div>-->
+                <div id="info2">
+                    <h3>EMAIL</h3><br>
+                    <ol>
+                        <li><a href="mailto:emonati.app12@gmail.com">emonati.app12@gmail.com</a></li>
+                    </ol>
+                </div>
+                <div id="info3">
+                    <h3>SOCIAL MEDIA</h3><br>
+                    <div>
+                        <a href="https://www.instagram.com/emonatiapp/" target="_blank">
+                            <img src="./images/instagram.png" alt="instagram" class="logoImg">
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100090978976161" target="_blank">
+                            <img src="./images/facebook.png" alt="facebook" class="logoImg">
+                        </a>
+                        <a href="https://www.tiktok.com/@emonatiapp">
+                            <img src="./images/twitter.png" alt="twitter" class="logoImg" target="_blank">
+                        </a>
+                        <!--<a href="">
+                            <img src="./images/linkedin.png" alt="linkedIn" class="logoImg">
+                        </a>-->
+                    </div>
+                </div>
+                <div id="info4">
+                    <h3>Terms and condition</h3>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

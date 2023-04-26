@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    width: 100%;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: fixed;
+}
+#leftSecHeader{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#leftSecHeader div{
+    flex: 1;
+}
+#logoImg{
+    text-align: right;
+}
+#header-img{
+    width: 20%;
+}
+#logoName{
+    font-family: 'Dancing Script', cursive;
+    font-size: 400%;
+    font-weight: bolder;
+    margin-left: 2%;
+}
+#rightSecHeader{
+    flex: 1;
+    text-align: center;
+}
+#rightSecHeader a{
+    vertical-align: middle;
+    font-size: 200%;
+    text-decoration: none;
+    color: black;
+}
+#menu2{
+    display: none;
+}
