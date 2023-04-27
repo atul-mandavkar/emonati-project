@@ -3,14 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+::-webkit-scrollbar{   /* psudo element for scroll bar in chrome, edge, safari and opera */
+    display: none;   /* To hide the scroll bar but continue it's functionality */
+}
 html{
     font-size: 16px;
 }
 body{
-    width: 100%;
+    width: 100vw;
+    font-family: 'Merriweather', serif;
 }
 header{
     width: 100%;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -54,9 +59,8 @@ header{
     display: none;
 }
 main{
-    background-color: pink;
     position: relative;
-    top: 7.5em;
+    top: 10em;
     display: flex;
     flex-direction: column;
 }
@@ -68,12 +72,86 @@ main .article1 .content1{
     margin: auto 10%;
 }
 main .article1 .content1 div{
-    border: 1px solid;
     flex: 1;
 }
-#content1Left{
-    background-color: red;
+#content1Left h1{
+    font-size: 220%;
+}
+#content1Left h3{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#content1Left div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#content1Left div img{
+    width: 40%;
+    vertical-align: middle;
 }
 #content1Right{
-    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#content1Right img{
+    width: 90%;
+}
+main .article1 svg{
+    margin-top: -7em;
+}
+main .article2{
+    background-color: #00cba9;
+}
+main .article2 .content2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+main .article2 .content2 div{
+    flex: 1;
+    text-align: center;
+}
+main .article2 .content2 div img{
+    width: 35%;
+}
+main .article2 .content2 div h2{
+    width: 50%;
+    margin: auto 10em;
+    text-align: justify;
+}
+main .article2 svg{
+    margin-top: -10em;
+}
+main .article3 .content3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+main .article3 .content3 h2{
+    width: 40%;
+    text-align: center;
+}
+main .article3 svg{
+    margin-top: -5em;
+}
+main .article4{
+    background-color: #000000;
+    color: #ffffff;
+}
+main .article4 .content4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+main .article4 .content4 h2{
+    width: 40%;
+    text-align: center;
+}
+main .article4 svg{
+    margin-top: -5em;
 }
