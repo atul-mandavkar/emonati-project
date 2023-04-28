@@ -155,3 +155,39 @@ main .article4 .content4 h2{
 main .article4 svg{
     margin-top: -5em;
 }
+main .article5 .content5{
+    text-align: center;
+}
+main .article5 svg{
+    margin-top: -5em;
+}
+footer{
+    position: relative;
+    top: 10em;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+footer div{
+    flex: 1;
+    text-align: center;
+}
+footer div ul{
+    list-style-type: none;
+}
+footer div ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 2px;
+    font-size: smaller;
+    font-family: monospace;
+}
+#infoSocialMedia ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
