@@ -191,3 +191,29 @@ footer div ul li a{
     justify-content: center;
     align-items: center;
 }
+/* responsive code */
+@media  screen and (max-width: 768px){
+    /* phone */
+    #header-img{
+        width: 90%;
+    }
+    #logoName{
+        font-size: 300%;
+    }
+    #menu1{
+        display: none;
+    }
+    #menu2{
+        display: block;
+    }
+    #menu2:hover{
+        transform: scale(1.2);
+    }/* end header part */
+
+    main{
+        top: 12em;
+    }
+}
+@media screen and (max-width: 1024px){
+    /* tablets */
+}
