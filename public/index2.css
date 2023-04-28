@@ -194,11 +194,14 @@ footer div ul li a{
 /* responsive code */
 @media  screen and (max-width: 768px){
     /* phone */
+    html{
+        font-size: 1vw;
+    }
     #header-img{
         width: 90%;
     }
     #logoName{
-        font-size: 300%;
+        font-size: 800%;
     }
     #menu1{
         display: none;
@@ -211,8 +214,62 @@ footer div ul li a{
     }/* end header part */
 
     main{
-        top: 12em;
+        top: 45em;
     }
+    main .article1 .content1{
+        flex-direction: column;
+    }
+    #content1Left{
+        order: 2;
+    }
+    #content1Left h1{
+        font-size: 450%;
+        text-align: center;
+    }
+    #content1Left h3{
+        font-size: 350%;
+        text-align: center;
+    }
+    #content1Left div{
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-between;
+    }
+    #content1Left div img{
+        width: 50%;
+        margin-top: 1em;
+    }
+    #content1Right{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #content1Right img{
+        width: 100%;
+    }
+    main .article1 svg{
+        margin-top: -3em;
+    }/* end article1 part*/
+    main .article2 .content2{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    main .article2 .content2 div{
+        margin-top: 5em;
+        width: 90%;
+    }
+    main .article2 .content2 div img{
+        width: 100%;
+    }
+    main .article2 .content2 div h2{
+        width: 90%;
+        margin: auto;
+        font-size: 400%;
+    }
+    main .article2 svg{
+        margin-top: -3em;
+    }/* end article2 part */
 }
 @media screen and (max-width: 1024px){
     /* tablets */
