@@ -286,6 +286,21 @@ footer div ul li a{
     }
     main .article4 svg{
         margin-top: -3em;
+    }/* end article4 part */
+    main .article5 .content5 h2{
+        font-size: 400%;
+        margin: 2em auto;
+    }/* end article5 part */
+    footer{
+        top: 45em;
+        padding-bottom: 3em;
+    }
+    footer div ul li a{
+        font-size: small;
+    }
+    #infoSocialMedia ul li a img{
+        width: 2em;
+        height: 2em;
     }
 }
 @media screen and (max-width: 1024px){
