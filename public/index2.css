@@ -305,4 +305,34 @@ footer div ul li a{
 }
 @media screen and (max-width: 1024px){
     /* tablets */
+    html{
+        font-size: 1vw;
+    }
+    #header-img{
+        width: 50%;
+    }
+    #logoName{
+        font-size: 800%;
+    }/* end header part */
+    main{
+        top: 25em;
+    }
+    main .article1 .content1{
+        margin: auto 5%;
+    }
+    #content1Left h1{
+        font-size: 320%;
+    }
+    #content1Left h3{
+        font-size: 220%;
+    }
+    #content1Left div img{
+        width: 45%;
+    }
+    #content1Right img{
+        width: 100%;
+    }
+    main .article1 svg{
+        margin-top: -5em;
+    }/* end article1 part */
 }
