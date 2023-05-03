@@ -335,4 +335,45 @@ footer div ul li a{
     main .article1 svg{
         margin-top: -5em;
     }/* end article1 part */
+    main .article2 .content2 div img{
+        width: 60%;
+    }
+    main .article2 .content2 div img:hover{
+        transform: scale(1.2);
+    }
+    main .article2 .content2 div h2{
+        width: 80%;
+        margin: auto 2.5em;
+        font-size: 250%;
+    }
+    main .article2 svg{
+        margin-top: -5em;
+    }/* end article2 part */
+    main .article3 .content3 h2{
+        width: 60%;
+        font-size: 250%;
+        font-weight: normal;
+    }
+    main .article3 svg{
+        margin-top: -2em;
+    }/* end article3 part */
+    main .article4 .content4 h2{
+        width: 50%;
+        font-size: 250%;
+    }
+    main .article4 svg{
+        margin-top: -2em;
+    }/* end article4 part */
+    main .article5 .content5 h2{
+        font-size: 250%;
+    }
+    main .article5 svg{
+        margin-top: -2em;
+    }/* end article5 part */
+    footer{
+        top: 25em;
+    }
+    footer div ul li a{
+        font-size: small;
+    }/*end footer part*/
 }
