@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{   
+    font-family: 'Merriweather', serif;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+header{
+    width: 100%;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 35% 45% 20%;
+    align-content: center;
+    z-index: 3;
+}
+header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logoImg{
+    text-align: right;
+    justify-content: flex-end;
+}
+.logoName{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+}
+.menu{
+    justify-content: center;
+}
+.menu h4{
+    display: none;
+}
+main{
+    position: relative;
+    top: 15%;
+}
+main .article2{
+    background-color: #00cba9;
+}
+main .article4{
+    background-color: #000000;
+    color: #ffffff;
+}
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    position: relative;
+    top: 14.5%;
+}
