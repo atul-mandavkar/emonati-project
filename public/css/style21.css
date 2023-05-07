@@ -18,6 +18,7 @@ header{
     grid-template-columns: 35% 45% 20%;
     align-content: center;
     z-index: 3;
+    background-color: #ffffff;
 }
 header div{
     display: flex;
