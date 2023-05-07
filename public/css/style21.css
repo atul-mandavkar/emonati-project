@@ -14,9 +14,9 @@ body{
 header{
     width: 100%;
     position: fixed;
-    display: grid;
-    grid-template-columns: 35% 45% 20%;
-    align-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     z-index: 3;
     background-color: #ffffff;
 }
@@ -28,13 +28,16 @@ header div{
 .logoImg{
     text-align: right;
     justify-content: flex-end;
+    flex: 2
 }
 .logoName{
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
+    flex: 3;
 }
 .menu{
     justify-content: center;
+    flex: 1;
 }
 .menu h4{
     display: none;
