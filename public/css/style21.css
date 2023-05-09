@@ -5,6 +5,7 @@
 }
 body{   
     font-family: 'Merriweather', serif;
+    text-align: center;
 }
 .row::after{
     content: "";
@@ -58,4 +59,9 @@ footer{
     color: #ffffff;
     position: relative;
     top: 14.5%;
+    padding-bottom: 10px;
+}
+/* For Mobile */
+[class*="col-"]{
+    width: 100%;
 }
