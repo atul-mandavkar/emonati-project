@@ -6,6 +6,7 @@
 body{   
     font-family: 'Merriweather', serif;
     text-align: center;
+    width: 100%;
 }
 a{
     text-decoration: none;
@@ -51,6 +52,7 @@ main{
     position: relative;
     top: 125px;
 }
+m
 main article > svg{
     margin-bottom: -2%;
 }
@@ -123,4 +125,134 @@ footer section nav a{
 /* For Mobile */
 [class*="col-"]{
     width: 100%;
+}
+
+/* For tablet device */
+@media only screen and (min-width: 600px){
+    header{
+        background-color: ;
+    }
+    .col-s-1{
+        width: 8.33%;
+    }
+    .col-s-2{
+        width: 16.66%;
+    }
+    .col-s-3{
+        width: 25%;
+    }
+    .col-s-4{
+        width: 33.33%;
+    }
+    .col-s-5{
+        width: 41.66%;
+    }
+    .col-s-6{
+        width: 50%;
+    }
+    .col-s-7{
+        width: 58.33%;
+    }
+    .col-s-8{
+        width: 66.66%;
+    }
+    .col-s-9{
+        width: 75%;
+    }
+    .col-s-10{
+        width: 83.33%;
+    }
+    .col-s-11{
+        width: 91.66%;
+    }
+    .col-s-12{
+        width: 100%;
+    }
+}
+/* For desktop device */
+@media only screen and (min-width: 768px){
+    header{
+        background-color: blue;
+    }
+    .menu img{
+        display: none;
+    }
+    .menu h4{
+        display: block  ;
+    }
+    .content1, .content2, .content3, .content4{
+        width: 75%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .content1 > section, .content2 > section{
+        flex: 1;
+    }
+    .content1 > section > img{
+        width: 100%;
+    }
+    .content2 section figure{
+        width: 100%;
+        margin: 0;
+    }
+    figure img{
+        width: 100%;
+    }
+    figure figcaption{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .content3 h3, .content4 h3{
+        text-align: center;
+        margin: auto;
+    }
+    .content5 video{
+        width: 75%;
+    }
+    footer section{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .col-1{
+        width: 8.33%;
+    }
+    .col-2{
+        width: 16.66%;
+    }
+    .col-3{
+        width: 25%;
+    }
+    .col-4{
+        width: 33.33%;
+    }
+    .col-5{
+        width: 41.66%;
+    }
+    .col-6{
+        width: 50%;
+    }
+    .col-7{
+        width: 58.33%;
+    }
+    .col-8{
+        width: 66.66%;
+    }
+    .col-9{
+        width: 75%;
+    }
+    .col-10{
+        width: 83.33%;
+    }
+    .col-11{
+        width: 91.66%;
+    }
+    .col-12{
+        width: 100%;
+    }
 }
