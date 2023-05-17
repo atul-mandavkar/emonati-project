@@ -45,7 +45,7 @@ header div{
     justify-content: center;
     flex: 1;
 }
-.menu h4{
+.menu a h4{
     display: none;
 }
 main{

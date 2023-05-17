@@ -6,6 +6,10 @@
 body{
     font-family: 'Merriweather', serif;
 }
+a{
+    text-decoration: none;
+    color: #000000;
+}
 header{
     display: flex;
     flex-direction: row;
@@ -32,12 +36,24 @@ header > div{
 .logoMenu{
     flex: 3;
 }
-.logoMenu > h3{
+.logoMenu > a h3{
     display: none;
 }
 main{
     position: relative;
     top: clamp(90px, 10px, 100px);
+    background-color: red;
+}
+main > section{
+    flex: 1;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+main .sec1 .content11{
+
 }
 footer{
     position: relative;
