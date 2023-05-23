@@ -41,8 +41,7 @@ header > div{
 }
 main{
     position: relative;
-    top: clamp(90px, 10px, 100px);
-    background-color: red;
+    top: clamp(100px, 10px, 150px);
 }
 main > section{
     flex: 1;
@@ -52,8 +51,22 @@ main > section{
     clear: both;
     display: table;
 }
-main .sec1 .content11{
-
+.sec1 > div > article{
+    width: 75%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.sec1 > div > article *{
+     padding: 10px 0;
+}
+.sec1 > div > aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sec1 > div > aside *{
+    width: 89%;
 }
 footer{
     position: relative;
