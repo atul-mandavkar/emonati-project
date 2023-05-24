@@ -41,7 +41,7 @@ header > div{
 }
 main{
     position: relative;
-    top: clamp(100px, 10px, 150px);
+    top: calc(100px + 10%);
 }
 main > section{
     flex: 1;
@@ -51,8 +51,8 @@ main > section{
     clear: both;
     display: table;
 }
-.sec1 > div > article{
-    width: 75%;
+.sec1 > div > article{ /* hope all article in this page have same width if so then merge them afterward */
+    width: calc(250px + 10%);
     margin: auto;
     padding-bottom: 50px;
 }
@@ -66,10 +66,43 @@ main > section{
     align-items: center;
 }
 .sec1 > div > aside *{
-    width: 89%;
+    width: calc(250px + 10%);
+}
+.sec2{
+    background-color: #00cba9;
+}
+.sec2 > div > article, .sec3 > div > h3, .sec4 > div > h3{
+    width: calc(250px + 10%);
+    margin: auto;
+    padding-bottom: 20px;
+}
+.sec2 > div > article > figure > img{
+    width: 100%;
+}
+figure > figcaption{
+    text-align: center;
+}
+.sec4{
+    background-color: #000000;
+    color: #ffffff;
+}
+.sec5 > div{
+    text-align: center;
+}
+.sec5 > div > video{
+    width: 75%;
 }
 footer{
     position: relative;
-    top: clamp(90px, 10px, 100px);
+    top: calc(100px + 10%);
     padding-bottom: 10px;
+    background-color: #000000;
+    color: #ffffff;
+}
+footer a{
+    color: #ffffff;
+}
+footer > div{
+    margin: 0 0 0 15px;
+    padding: 5px 0;
 }
