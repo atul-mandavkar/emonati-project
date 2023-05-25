@@ -1,0 +1,68 @@
+/* media query for desktop view */
+
+@media only screen and (min-width: 768px){
+    [class*="col-"]{
+        float: left;
+        padding: 5px;
+    }
+    .col-1{
+        min-width: 8.33%;
+    }
+    .col-2{
+        min-width: 16.66%;
+    }
+    .col-3{
+        min-width: 25%;
+    }
+    .col-4{
+        min-width: 33.33%;
+    }
+    .col-5{
+        min-width: 41.66%;
+    }
+    .col-6{
+        min-width: 50%;
+    }
+    .col-7{
+        min-width: 58.33%;
+    }
+    .col-8{
+        min-width: 66.66%;
+    }
+    .col-9{
+        min-width: 75%;
+    }
+    .col-10{
+        min-width: 83.33%;
+    }
+    .col-11{
+        min-width: 91.66%;
+    }
+    .col-12{
+        min-width: 100%;
+    }
+
+    .logomenu > a img{
+        display: none;
+    }
+    .logomenu > a h3{
+        display: block;
+    }
+    article > .contentInfo, .sec2 > div > article> figure{
+        width: 75%;
+        margin-left: 15%;
+    }
+    article > .contentButtons{
+        text-align: center;
+    }
+    .sec1 > div > .aside{
+        justify-content: flex-start;
+    }
+    .aside > img{
+        width: calc(400px + 10%);
+    }
+    footer{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
