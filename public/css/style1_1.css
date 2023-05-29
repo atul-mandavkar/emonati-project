@@ -26,12 +26,14 @@ header > div{
 }
 .logoImg{
     flex: 4;
+    justify-content: flex-end;
 }
 .logoName{
     flex: 5;
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
     font-size: x-large;
+    justify-content: flex-start;
 }
 .logoMenu{
     flex: 3;
@@ -72,7 +74,7 @@ main > section{
 .sec2{
     background-color: #00cba9;
 }
-.sec2 > div > article, .sec3 > div > h3, .sec4 > div > h3{
+    .sec2 > div > article, .sec3 > div > h3, .sec4 > div > h3{
     width: calc(250px + 10%);
     margin: auto;
     padding-bottom: 20px;

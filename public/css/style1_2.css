@@ -41,6 +41,9 @@
     .col-12{
         min-width: 100%;
     }
+    body{
+        font-size: calc(16px + 50%);
+    }
 
     .logomenu > a img{
         display: none;
@@ -59,10 +62,11 @@
         justify-content: flex-start;
     }
     .aside > img{
-        width: calc(400px + 10%);
+        width: calc(325px + 10%);
     }
     footer{
         flex-direction: row;
         justify-content: space-around;
+        font-size: calc(16px + 1%);
     }
 }
